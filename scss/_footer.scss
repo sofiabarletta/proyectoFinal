@@ -1,0 +1,18 @@
+footer{
+	padding-top: 150px;
+		ul{
+
+			color: $primary ;
+			li{
+				font-family: $navFont;
+				color: $secondary;
+				font-size: $textMedium;
+				text-decoration: none; 
+				text-align: right;
+				list-style-type: none;
+				padding-right: 50px;
+
+			}
+		}
+
+}

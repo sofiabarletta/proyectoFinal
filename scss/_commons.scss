@@ -1,0 +1,207 @@
+
+
+
+// Definimos las variables globales
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+//padding
+
+$padding: 0 10px 0 300px;
+
+.padding{ padding-left: 30px;}
+
+
+
+.mb-2 { padding-bottom: 10px; }
+
+.mb-5 { padding-bottom: 50px; }
+
+.mt-2 { padding-top: 10px; }
+
+.mt-5 { padding-top: 50px; }
+
+
+
+//title
+
+.title { font-size: 4em;
+		 }			
+
+
+//colores
+
+$primary: black;
+$secondary: white;
+$main: white;
+$ingo:white;
+$titlecolor:#EE5C22;
+
+.black { color: black; }
+.white { color: white; }
+
+//margin padding
+
+$px-1:1em;
+$mx-1:1em;
+
+//display
+
+$d-flex:flex;
+
+//align
+$alignCenter: center;
+$alignLeft: left;
+$alignRight: right;
+
+//sizing
+
+$w-100:100%;
+$w-75:75%;
+$w-50:50%;
+$w-25:25%;
+$w-15:15%;
+
+//acordeon
+
+
+
+
+// variables 
+// $bg-warning:#EDAD13;
+// $bg-sucwcess:#36F328;
+// $bg-info:#3ABFDC;
+
+$width:100%;
+$height:10vh;
+
+$lang:mx;
+
+.contenedor{
+	width: ($width - 2%) / 2;
+	height: $height - 2vh;
+	// background-color: $bg-info;
+}
+
+.icon-lang{
+	width: 50px;
+	height: 50px;
+	background-size:cover;
+	background-position:center;
+	@if $lang==es{background-image: url(../img/icono-es.jpg)}
+	@else if $lang==en{background: url(../img/icono-en.jpg)}
+	@else if $lang==fr{background: url(../img/icono-fr.jpg)}
+	@else{background: url(../img/icono-any.jpg)};
+}
+
+//bucles
+@for $i from 1 through 6{
+	.text-#{$i}{
+		font-size: 1em *$i;
+	}
+}
+
+@each $icono in facebook, twitter, instagram{
+	.#{$icono}-icon{
+		background-image:url(../img/#{$icono}.svg);
+		width: 30px;
+		height: 30px;
+		background-size:100%;
+		list-style: none;
+	}
+}
+
+//BEM
+
+.box_uno { width: 70%;
+	padding: 100px 0;
+         
+}
+
+.box_dos { width: 100%;
+	padding: 100px 0;
+         
+}
+
+.box_tres { width: 80%;
+	padding: 100px 0;
+         
+}
+
+.box_cuatro { width: 80%;
+	padding: 100px 0;
+
+         
+}
+.box_cinco { width: 70%;
+	padding: 100px 0;
+         
+}
+.box_seis { width: 100%;
+	padding: 100px 0;
+         
+}
+
+
+
+
+// $colors:(
+// 	uno:red, 
+// 	dos:green, 
+// 	tres:blue, 
+// 	cuatro:black);
+
+// @each $name-color, $bg-color in $colors{
+// 	.circle-#{$name-color}{
+// 		background-color:$bg-color;
+// 		width: 100px;
+// 		height: 100px;
+// 		border-radius: 50%;
+// 	}
+// }
+
+
+// .btn-orange{
+// 	width: 100px;
+// 	height: 30px;
+// 	background-color:$bg-warning;
+// 	border:none;
+// 	color: white;
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	&:hover{
+// 		color: black;
+// 		cursor: pointer;
+// 	}
+// }
+
+// .btn-rounded{
+// 	@extend .btn-orange;
+// 	border-radius:15px;
+// }
+
+// @mixin p-m($relleno, $margen){
+// 	padding: $relleno;
+// 	margin:$margen;
+// }
+
+// footer{
+// 	@include p-m(2em,1em);
+// 	height: $height / 4;
+// 	background-color:green;
+// }
+
+// // scss-docs-start theme-color-variables
+// $primary:       red;
+// $secondary:     green;
+// $success:       yellow;
+// $info:          violet;
+// $warning:       pink;
+// $danger:        green;
+// $light:         olive;
+// $dark:          brown;
+// // scss-docs-end theme-color-variables

@@ -1,0 +1,322 @@
+body {
+	background-image: url(../img/fondo1.jpg);
+	background-repeat: repeat;
+	background-attachment:scroll;
+	background-size: 100%;
+	text-align: center;
+	padding: 20 px 0;
+
+}
+
+
+nav {
+	div{
+		div{
+
+		
+			ul{
+
+				li{
+					a{
+						&:hover { color: $secondary;
+								}
+					font-family: Bebas Neue;
+					font-size: $textBig;
+					font-weight: none;
+					list-style-type: none;
+					list-style-position: inside;
+					align-content: right;
+
+}		
+					}
+				}	
+			}
+		}
+	}
+
+	
+
+nav{
+	img{	align-content: left;
+
+	}
+}
+
+section{
+		div{
+			h2{
+				font-family: $navFont;
+				color: $secondary;
+				font-size: $textBig;
+				padding: 50px 0;
+				text-align: center;
+			}
+
+		}
+}
+
+main{
+	padding: 0 100px;
+	width: $w-100;
+}
+
+main{
+	div{
+		article{
+				text-align: center;
+		}
+	}
+}
+
+main{
+	div{
+		div{
+			article{
+					font-family: $mainFont;
+					font-size:$textSmall ;
+					color: $secondary;
+					line-height: 1.5rem;
+					padding: 100px 0;
+			}
+		}
+	}
+}
+
+main{
+	div{
+		div{
+			article{
+					h5{
+						color: $secondary;
+						font-family: $mainFont;
+						font-size: $textSmall;
+
+					}
+			}
+		}
+	}
+}
+
+main{
+	div{
+		div{
+			article{
+					
+						p{
+							
+							font-family: Poppins;
+							color: $primary;
+							
+						}
+					}	
+					
+				
+			}
+		}
+	}
+
+section{
+		h2{
+			color: $titlecolor;
+		}
+}
+
+nav{
+	div{
+		ul{
+			li{
+				a{
+					font-family: $navFont;
+					font-size: $textBig;
+
+				}
+			}
+		}
+	}
+}
+
+div{
+	ul{
+		
+		padding: 100px 0;
+		align-content: center;
+		
+	}
+}
+
+div{
+	ul{
+		li{
+			padding: 0 5px;
+			}
+		}
+	}
+
+//tienda
+
+div{
+	div{
+		h2{
+			font-family: $mainFont;
+
+		}
+	}
+}
+
+div{
+	div{
+		div{
+			div{
+				a{	text-decoration: none;
+					font-family: $mainFont;
+					font-size: $textAccordion;
+				}
+			}
+		}
+	}
+}
+
+
+div{
+	h3{
+		color: $primary;
+		font-size: $textTitle;
+	}
+}
+
+//nosotrxs
+
+
+
+article{
+		div{
+			
+			h2{
+				text-align: center;
+				font-family: $navFont;
+				font-size: $textExtra;
+				color: $titlecolor;
+			}
+
+		}
+}
+
+article {
+		div{
+			 
+			p{
+			text-align: center;
+			font-family: $mainFont;
+			color: $secondary;
+
+
+			}
+		}
+}
+
+div{
+	video{
+		padding: 50px 0;
+	}
+}
+
+
+main{
+	div{
+		img{
+			width: $w-100;
+		}
+	}
+}
+
+//contacto
+
+main{
+	div{
+		img{
+			width: $w-100;
+			padding-bottom: 50px;
+			}
+		}
+	}
+	
+main{
+	div{
+		label{
+
+
+    		color: #EE5C22; 
+			font-family: Poppins, sans-serif;
+			font-weight: bold;
+		input{
+			font-family: Poppins;
+			}
+		}
+	}
+}
+
+main{
+	div{
+
+		button{
+			
+			a{
+				text-decoration: none;
+				color: $secondary;
+				font-family: $mainFont;
+			}
+		}
+	}
+}
+
+main{
+	aside{
+		div{
+			text-align: right;
+			padding-top: 50px;
+		}
+	}
+}
+
+main{
+	aside{
+		div{
+			div{
+				img{
+					width: $w-15;
+				}
+			}
+		}
+	}
+}
+
+main{
+	aside{
+		div{
+			h4{
+				font-size: $textBig;
+				font-family: $navFont;
+			}
+		}
+	}
+}
+
+main{
+	aside{
+		div{
+			p{
+				font-family: $mainFont;
+				font-size: $textSmall;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
